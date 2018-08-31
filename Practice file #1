@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<form>
+Your name: <input type="text" size="25"
+maxlength="50"/>
+<br>
+Your Password: <input type="password" />
+<br>
+Your History:
+<br>
+<textarea rows="3" cols="5">Hi!</textarea>
+
+<fieldset>
+	<legend>Hobbies</legend>
+    Drawing<input type="checkbox" value="drawing">
+    Biking<input type="checkbox" value="biking">
+    Watch anime<input type="checkbox" value="watch anime">
+</fieldset>
+
+<fieldset>
+	<legend>Food</legend>
+    Burgers<input type="radio" name="food" value="burgers">
+    Hot Wings<input type="radio" name="food" value="Hot Wings">
+    Pasta<input type="radio" name="food" value="Pasta">
+</fieldset>
+<br>
+<select name="superhero">
+	<option>Dr. Strange</option>
+    <option>Spiderman</option>
+    <option>Thor</option>
+</select>
+<br>
+<br>
+<input type="file">
+<br>
+<br>
+<input type="reset">
+<input type="submit">
+<input type="button" value="DO NOT CLICK">
+</form>
+</body>
+   
+
+</html>
